@@ -3,7 +3,7 @@
 df <- read.csv("pg92-10gb-scaling.csv", header=T)
 
 # https://wiki.postgresql.org/wiki/Color_Palette
-color="#336791"
+color="#0064a5"
 
 bitmap("pg92-10gb-scaling.png", type="png16m", units="px",
        width=888, height=555, res=150, taa=4, gaa=4)
